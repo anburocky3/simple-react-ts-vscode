@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anburocky3/simple-react-ts-code-snippets.git"
+    "url": "https://github.com/anburocky3/simple-react-ts-vscode.git"
   },
   "keywords": [
     "React",
@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "start": "node dist/app.js",
-    "dev": "nodemon --exec ts-node --files src/convert.ts",
+    "dev": "nodemon --exec ts-node --files src/app.ts",
     "build": "tsc -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
