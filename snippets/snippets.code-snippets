@@ -1,0 +1,52 @@
+{
+  "Functional Component": {
+    "prefix": "rtfc",
+    "body": [
+      "import type { FC } from 'react';",
+      "",
+      "interface $1Props {$2}",
+      "",
+      "const $1: FC<$1Props> = ($3) => {",
+      "    return ($0);",
+      "}",
+      "",
+      "export default $1;",
+      ""
+    ],
+    "description": "Functional Component"
+  },
+  "Import From": {
+    "prefix": "rtif",
+    "body": [
+      "import $0 from \\\"$1\\\";",
+      ""
+    ],
+    "description": "Import From"
+  },
+  "Named Import": {
+    "prefix": "rtni",
+    "body": [
+      "import { $0 } from \\\"$1\\\";",
+      ""
+    ],
+    "description": "Named Import"
+  },
+  "useEffect Hook": {
+    "prefix": "rtue",
+    "body": [
+      "useEffect(() => {",
+      "  $0;",
+      "}, [$1]);",
+      ""
+    ],
+    "description": "useEffect Hook"
+  },
+  "useState Hook": {
+    "prefix": "rtus",
+    "body": [
+      "const [$1, set$1] = useState(\\\"$0\\\");",
+      ""
+    ],
+    "description": "useState Hook"
+  }
+}
